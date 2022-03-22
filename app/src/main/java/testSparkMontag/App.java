@@ -21,6 +21,9 @@ public class App {
 // Rest Serivce groupname added by Dominik
         Spark.get("/groupname", (req, res) -> {
             return "G, wie Gurke";}); 
+// Rest Serivce groupmember added by Jan
+        Spark.get("/groupmember", (req, res) -> {
+            return "Adrian, Dominik, Jan";}); 
         }
     }
 }
